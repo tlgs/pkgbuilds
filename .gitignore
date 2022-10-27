@@ -1,3 +1,20 @@
-*
-!.gitignore
-!README.md
+# source: <https://github.com/eli-schwartz/pkgbuilds>
+
+# package src/pkg archives, downloaded sources
+*.tar*
+*.tgz
+*.zip
+
+# signed sources
+*.asc
+*.sig
+
+# log files from makepkg --log (or extra-x86_64-build)
+*.log
+
+# subfolders, e.g. source or built package trees, vcs
+*/**/
+
+# backup files
+*~
+*.bak
